@@ -1,0 +1,145 @@
+$color-titulo:rgb(148, 67, 67);
+$color-subtitulo:rgb(136, 17, 17);
+$color-link:rgb(14, 13, 13);
+$fondo-body:rgb(87, 109, 124);
+$fondo-footer:lightseagreen;
+$fondo-header:black;
+$color-item:rgb(236, 240, 240);
+$color-parrafo:rgb(87, 109, 124);
+$color-body-media: white;
+
+.consultas {
+    background-color: transparent;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    
+}
+legend {
+    color:$color-item;
+}
+label {
+    color: $color-item;
+}
+li {
+    color: $color-link;
+    font-size: 20px;
+}
+body {
+    background-color: $fondo-body;
+    
+   
+}
+li>a {
+     font-family: "montserrat", sans-serif;
+    color:$color-link;
+    font-size: 20px;
+}
+h1 { 
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 60px;
+    color:$color-titulo;
+}
+h2 {
+     text-align: center;
+    font-size: 50px;
+    color: $color-subtitulo;
+}
+footer p {
+    background-color:$fondo-footer;
+    color: rgb(169, 233, 74);
+    text-align: center;
+    font-size: 20px;
+}
+.encabezado img {
+    width: 350px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.encabezado {
+    background-color: $fondo-header;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:$fondo-body;
+    align-items: baseline;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+.flex-container a {
+        color:$color-link;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 19px; }
+      
+     ul li a:hover {
+        color: $color-subtitulo; }
+      
+     ul li a::before {
+        content: "";
+        display: block;
+        height: 5px;
+        background: $color-titulo;
+        width: 0px;
+        transition: all ease-in;
+        -webkit-transition: all ease-in 0.2s;
+        -moz-transition: all ease-in;
+        -ms-transition: all ease-in;
+        -o-transition: all ease-in;
+        top: 18px; }
+      
+      ul li a:hover::before {
+        width: 100%;}
+
+.container li {
+    color: $color-item;
+    font-size: 25px;
+}
+.container p {
+    font-size: 20px;
+    color:$color-parrafo;
+}
+.encabezado img {
+    box-align: center;
+    position: relative;
+}
+
+.container{
+    background: url("PagAixa.jpg");
+    min-height: 100vh ;
+    background-size: cover ;
+    background-attachment: scroll;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width:800px) {
+    .encabezado img {
+        width: 170px;
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;}
+
+    .flex-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color:$fondo-footer;
+            align-items: center;
+            margin-right: 5px;
+            margin-left: 5px;}
+    .container{
+                background: url("PagAixa.jpg");
+                min-height: 40vh ;
+                background-size: cover ;
+                background-attachment: scroll;
+                padding-bottom: 30px;
+                }
+    
+}
