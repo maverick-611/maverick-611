@@ -27,16 +27,16 @@ li > a {
   font-size: 20px;
 }
 
-h1 {
+.container h1 {
   font-family: 'Playfair Display', serif;
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   color: #944343;
 }
 
-h2 {
+.container h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   color: #881111;
 }
 
@@ -118,6 +118,7 @@ ul li a:hover::before {
 .container p {
   font-size: 20px;
   color: #576d7c;
+  padding-right: 30%;
 }
 
 .encabezado img {
