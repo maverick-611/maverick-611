@@ -1,0 +1,9 @@
+1.- carga de key words especificas de cada pagina
+2.-title acordes a cada pagina
+3.-revision completa para que no haya codigo sin sentido
+4.-corrección de escrituras (sin espacios, separando con  {-} )
+5.- correcciones gramaticales
+6.-aplicacion de "meta descripcioness" a cada pagina
+7.-alineacion de codigo html, para mejor comprension 
+8.-correccion de los "alt" de las imagenes para que sea adaptado
+9.-
