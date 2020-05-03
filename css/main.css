@@ -14,7 +14,21 @@ li {
   font-size: 20px; }
 
 body {
-  background-color: #576d7c; }
+  background-color: #576d7c;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-color: #0e0d0d; }
+
+.general {
+  margin: 0px auto; }
 
 li > a {
   font-family: "montserrat", sans-serif;
@@ -43,7 +57,9 @@ footer p {
   align-items: center;
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  box-align: center;
+  position: relative; }
 
 .encabezado {
   background-color: black; }
@@ -55,7 +71,8 @@ footer p {
   background-color: #576d7c;
   align-items: baseline;
   margin-right: 5px;
-  margin-left: 5px; }
+  margin-left: 5px;
+  list-style-type: none; }
 
 .flex-container a {
   color: #0e0d0d;
@@ -89,11 +106,8 @@ ul li a:hover::before {
 .container p {
   font-size: 20px;
   color: #576d7c;
-  padding-right: 30%; }
-
-.encabezado img {
-  box-align: center;
-  position: relative; }
+  padding-right: 30%;
+  padding-left: 10px; }
 
 .container {
   background: url("PagAixa.jpg");

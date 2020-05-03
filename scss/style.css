@@ -19,6 +19,21 @@ li {
 
 body {
   background-color: #576d7c;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-color: #0e0d0d;
+}
+
+.general {
+  margin: 0px auto;
 }
 
 li > a {
@@ -55,6 +70,8 @@ footer p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-align: center;
+  position: relative;
 }
 
 .encabezado {
@@ -78,6 +95,7 @@ footer p {
           align-items: baseline;
   margin-right: 5px;
   margin-left: 5px;
+  list-style-type: none;
 }
 
 .flex-container a {
@@ -119,11 +137,7 @@ ul li a:hover::before {
   font-size: 20px;
   color: #576d7c;
   padding-right: 30%;
-}
-
-.encabezado img {
-  box-align: center;
-  position: relative;
+  padding-left: 10px;
 }
 
 .container {

@@ -26,8 +26,20 @@ li {
 }
 body {
     background-color: $fondo-body;
-    
-   
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-color: $color-link;
+}
+.general {
+    margin: 0px auto;
 }
 li>a {
      font-family: "montserrat", sans-serif;
@@ -57,7 +69,8 @@ footer p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+    box-align: center;
+    position: relative;}
 .encabezado {
     background-color: $fondo-header;
 }
@@ -70,6 +83,7 @@ footer p {
     align-items: baseline;
     margin-right: 5px;
     margin-left: 5px;
+    list-style-type: none;
 
 }
 .flex-container a {
@@ -105,10 +119,7 @@ footer p {
     font-size: 20px;
     color:$color-parrafo;
     padding-right: 30%;
-}
-.encabezado img {
-    box-align: center;
-    position: relative;
+    padding-left: 10px;
 }
 
 .container{
